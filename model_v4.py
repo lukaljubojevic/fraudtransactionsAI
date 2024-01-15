@@ -67,7 +67,6 @@ def logreg(df):
     acc_report(y_train,ypred_train_lgr)
     print("Set testnih podataka:")
     acc_report(y_test,ypred_test_lgr)
-    df=fetch_data()
 
 def job():
    sys.stdout = open('results.txt', 'a')
